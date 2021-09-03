@@ -9,7 +9,7 @@ from telepot.namedtuple import InlineKeyboardButton, InlineKeyboardMarkup
 
 class RandomBot:
     def __init__(self):
-        self.token = '1674671265:AAGPxUBVD-efy_zuuDJXYS5kIM70EDhemvM'
+        self.token = '....'
         self.url = f'https://api.telegram.org/bot{self.token}/'
         self.bot = telepot.Bot(self.token)
         self.dict_kanto = defaultdict(dict)
